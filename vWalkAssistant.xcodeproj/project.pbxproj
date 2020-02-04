@@ -15,6 +15,7 @@
 		4586C8A723E92F1C00710077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4586C8A523E92F1C00710077 /* LaunchScreen.storyboard */; };
 		4586C8B223E92F1C00710077 /* vWalkAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8B123E92F1C00710077 /* vWalkAssistantTests.swift */; };
 		4586C8BD23E92F1C00710077 /* vWalkAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8BC23E92F1C00710077 /* vWalkAssistantUITests.swift */; };
+		4586C8CB23E942B600710077 /* signs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8CA23E942B600710077 /* signs.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4586C8B823E92F1C00710077 /* vWalkAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vWalkAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4586C8BC23E92F1C00710077 /* vWalkAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWalkAssistantUITests.swift; sourceTree = "<group>"; };
 		4586C8BE23E92F1C00710077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4586C8CA23E942B600710077 /* signs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = signs.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4586C89923E92F1800710077 /* vWalkAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				4586C8CA23E942B600710077 /* signs.mlmodel */,
 				4586C89A23E92F1800710077 /* AppDelegate.swift */,
 				4586C89C23E92F1800710077 /* SceneDelegate.swift */,
 				4586C89E23E92F1800710077 /* ViewController.swift */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4586C89F23E92F1800710077 /* ViewController.swift in Sources */,
+				4586C8CB23E942B600710077 /* signs.mlmodel in Sources */,
 				4586C89B23E92F1800710077 /* AppDelegate.swift in Sources */,
 				4586C89D23E92F1800710077 /* SceneDelegate.swift in Sources */,
 			);
