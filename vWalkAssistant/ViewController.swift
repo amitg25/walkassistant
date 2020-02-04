@@ -133,6 +133,12 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate  {
         
         self.prediction.text = self.prediction.text! + bestPrediction + "\n"
         
+        print("[PREDICTION RESULT] confidence \(confidence) pred: \(bestPrediction)")
+        
+        self.prediction.text = self.prediction.text! + bestPrediction + "\n"
+        
+        Speaker.shared.announce(text: bestPrediction)
+        
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.launchAI), userInfo: nil, repeats: false)
     }
 }

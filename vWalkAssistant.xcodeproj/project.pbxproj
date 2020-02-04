@@ -16,6 +16,7 @@
 		4586C8B223E92F1C00710077 /* vWalkAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8B123E92F1C00710077 /* vWalkAssistantTests.swift */; };
 		4586C8BD23E92F1C00710077 /* vWalkAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8BC23E92F1C00710077 /* vWalkAssistantUITests.swift */; };
 		4586C8CB23E942B600710077 /* signs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4586C8CA23E942B600710077 /* signs.mlmodel */; };
+		E8B636F923EA0723005AF75E /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B636F823EA0723005AF75E /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4586C8BC23E92F1C00710077 /* vWalkAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWalkAssistantUITests.swift; sourceTree = "<group>"; };
 		4586C8BE23E92F1C00710077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4586C8CA23E942B600710077 /* signs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = signs.mlmodel; sourceTree = "<group>"; };
+		E8B636F823EA0723005AF75E /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4586C89A23E92F1800710077 /* AppDelegate.swift */,
 				4586C89C23E92F1800710077 /* SceneDelegate.swift */,
 				4586C89E23E92F1800710077 /* ViewController.swift */,
+				E8B636F823EA0723005AF75E /* Speaker.swift */,
 				4586C8A023E92F1800710077 /* Main.storyboard */,
 				4586C8A323E92F1C00710077 /* Assets.xcassets */,
 				4586C8A523E92F1C00710077 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				4586C89F23E92F1800710077 /* ViewController.swift in Sources */,
 				4586C8CB23E942B600710077 /* signs.mlmodel in Sources */,
+				E8B636F923EA0723005AF75E /* Speaker.swift in Sources */,
 				4586C89B23E92F1800710077 /* AppDelegate.swift in Sources */,
 				4586C89D23E92F1800710077 /* SceneDelegate.swift in Sources */,
 			);
@@ -441,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2ZMFGQM93;
 				INFOPLIST_FILE = vWalkAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2ZMFGQM93;
 				INFOPLIST_FILE = vWalkAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
