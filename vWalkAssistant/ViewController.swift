@@ -17,6 +17,8 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate  {
     @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var prediction: UILabel!
     
+    @IBOutlet weak var predictionTextView: UITextView!
+    
     var captureSession : AVCaptureSession!
     var cameraOP : AVCapturePhotoOutput!
     var previewLayer : AVCaptureVideoPreviewLayer!
@@ -91,6 +93,10 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate  {
         }
     }
     
+    func photoOutput(_ output: AVCapturePhotoOutput, willCapturePhotoFor resolveSettings: AVCaptureResolvedPhotoSettings ) {
+        AudioServicesDisposeSystemSoundID(1108)
+    }
+    
     func predict(image: UIImage) {
         // use captured image as input into signs model, run the model and get prediction
          
@@ -135,11 +141,11 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate  {
         
         print("[PREDICTION RESULT] confidence \(confidence) pred: \(bestPrediction)")
         
-        self.prediction.text = self.prediction.text! + bestPrediction + "\n"
+        //self.prediction.text = self.prediction.text! + bestPrediction + "\n"
+        self.predictionTextView.text = self.predictionTextView.text! + bestPrediction + "\n"
         
         Speaker.shared.announce(text: bestPrediction)
         
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.launchAI), userInfo: nil, repeats: false)
     }
 }
-

@@ -30,6 +30,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yWh-zq-hHO">
+                                        <rect key="frame" x="8" y="0.0" width="398" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -47,6 +55,7 @@
                     </view>
                     <connections>
                         <outlet property="prediction" destination="D9W-mX-lTM" id="B0t-5Y-QRa"/>
+                        <outlet property="predictionTextView" destination="yWh-zq-hHO" id="Jv3-6I-i5n"/>
                         <outlet property="previewView" destination="GJm-ue-nRf" id="a4H-Ua-Xlw"/>
                     </connections>
                 </viewController>
