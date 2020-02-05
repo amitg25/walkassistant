@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7DC07EF8-7F58-410A-9D3B-D51FF494D373"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0FDDBFC-77DD-42F2-A83B-E8C4040C800C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vWalkAssistant/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "setupVision()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0FDDBFC-77DD-42F2-A83B-E8C4040C800C - d20c15baf030b70c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in vWalkAssistant.WalkAssistantViewController.setupVision() -&gt; Swift.Optional&lt;__C.NSError&gt;"
+                  moduleName = "vWalkAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhaoal/Documents/walkassistant/vWalkAssistant/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "A0FDDBFC-77DD-42F2-A83B-E8C4040C800C - 89550549763485e3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in vWalkAssistant.WalkAssistantViewController.setupVision() -&gt; Swift.Optional&lt;__C.NSError&gt;"
+                  moduleName = "vWalkAssistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhaoal/Documents/walkassistant/vWalkAssistant/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29E22137-A9DC-4204-8460-96CC3D6C075D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vWalkAssistant/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "setupVision()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
