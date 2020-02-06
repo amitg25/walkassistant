@@ -1,2 +1,4 @@
+chair
 doors
 stairs
+table
