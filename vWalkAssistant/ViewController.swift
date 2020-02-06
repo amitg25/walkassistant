@@ -134,8 +134,10 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate  {
                 confidence = classification.confidence
                 bestPrediction = classification.identifier
             }
-            
+
         }
+        
+        
         
         self.prediction.text = self.prediction.text! + bestPrediction + "\n"
         
